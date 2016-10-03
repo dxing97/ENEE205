@@ -9,5 +9,6 @@ This repository does NOT include the compiled pdf.
 Compile in your favorite LaTeX editor, such as TeXStudio.
 
 To compile in GLUE:
-  add the .tex files to your current directory
-  compile into PDF with "pdflatex < name of .tex file >"
+1. Add the .tex files to your current directory
+2. Run "tap texlive" (you only have to run this once per login to glue)
+2. Compile into PDF with "pdflatex < name of .tex file >"
