@@ -1,0 +1,11 @@
+#
+*.pdf
+*.log
+*.out
+*.synctex.gz
+<<<<<<< HEAD
+*.bbl
+*.bbg
+=======
+*.aux
+>>>>>>> master
