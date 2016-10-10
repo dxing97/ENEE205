@@ -89,8 +89,11 @@
 	\item Electric current $i = \frac{\mathrm{d}q}{\mathrm{d}t}$
 	\item Voltage $\int_{x_1}^{x_2}E\mathrm{d}x=v(2)-v(1)=v_{21}$
 	\item Resistance $R=\frac{L}{\sigma A}=\rho\frac{L}{A}$
+	\item Resistance from resistivity: $R=\frac{\rho l}{A}$
 	\item Capacitance $C = \epsilon \frac{A}{d}$
+	\item Parallel plates: $C = \epsilon \frac{A}{d}$
 	\item Inductance $L=\mu N^2 \frac{A}{d}$
+	\item Solenoid: $ L = \mu N^2\frac{A}{d}$
 	\item Ohm's law $v=iR$
 	\item TR: Capacitors $i=C\frac{\mathrm{d}v}{\mathrm{d}t}$
 	\item TR: Inductors $v=L\frac{\mathrm{d}i}{\mathrm{d}t}$
@@ -103,10 +106,25 @@
 	
 \end{enumerate}
 
-\section{1.2 Moar basic concepts}
+\subsection{1.2 Moar basic concepts}
 Total charge accumulated over time is $q=\int_0^t i(t) \mathrm{d}t $ \\
 Units of current are \si{C.s^{-1}}\\
-Instantaneous power is defined as $p(t) = v(t)i(t)$
+Instantaneous power is defined as $p(t) = v(t)i(t)$\\
+Current flows from higher to lower potential\\
+Ideal voltage source ALWAYS puts out the same voltage for any (or even no) load.\\
+Ideal current source ALWAYS puts out the same current for any (or even infinite) load.\\
+Open circuit:\\ %diagram here
+Closed circuit:\\
+
+\subsection{1.3 Circuit Analysis: Kirchhoff's Laws} %todo: add diagrams
+Branch: a line with one two-terminal device\\
+Node: where two or more branches meet\\
+	\hspace{4ex} Trivial node: only two connected elements\\
+	\hspace{4ex} Nontrivial node: more than two connected elements\\
+Loop: branches that form a closed path\\
+Mesh: Loop that does not surround any branches\\
+	\hspace{4ex} Trivial mesh: contains only two elements\\
+	\hspace{4ex} Nontrivial mesh: contains more than two elements\\
 
 
 \section{Section 3}
